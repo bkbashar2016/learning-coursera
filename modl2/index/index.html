@@ -1,13 +1,88 @@
-<!doctype html>
-<html>
-  <head>
-  <link rel="stylesheet" href="css/style.css">
-  </head>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>::.  coursera   .::</title>
+    
+  
+<link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" />
+\
+
+</head>
+
 <body>
-  <div id="body">
-  <div id="header"><p> text header </p></div>
-  <div id="container"> <p> text container </p></div>
-  <div id="side"> <p> text side </p></div>
+<div id="wrapp">
+<div id="all">
+<div id="Banner">
+<img src="images/bnnr.png">
+
 </div>
+<div id="menu">
+<div id="navigation">
+					<ul>
+						<li class="selected">
+							<a href="index.php">Home</a>
+						</li>
+					
+						<li>
+							<a href="about.php" >About</a>
+						</li>
+						<li>
+							<a href="Contact.php">Contact</a>
+						</li>
+						<li>
+							<a href="developers.php">Developers</a>
+						</li>
+						<li>
+							<a href="CS02.php">\ Info</a>
+						</li>
+						
+					</ul>
+				</div>
+</div>
+<div id="content">
+<div class="page">
+				<b><p>1.1 Introduction</p></b>
+
+	</div>
+		</div>
+	<form method="post" data-toggle="validator">
+    	<fieldset>
+        	<legend> Login Form </legend>
+            	<div id="login_back">
+        			<div id="msg">
+                    
+        			</div>
+                    <br>
+                    <div id="login_form">
+                    	
+                    	<input type="text" class="form-control" name="user"  placeholder="Username" autocomplete="off"  />
+                        
+                        
+                        <input type="password" class="form-control" name="pass"   placeholder="Password"  autocomplete="off"/>
+                        
+                        
+                        
+                        <input type="submit" class="button" name="btn_login" value="" />	
+						 <h4 style="color:red" align="right">
+	                        <?php echo $msg; ?>
+						<img src="images/log(2).png" width="300" height="150">
+	               </h4>
+                
+                    </div>
+					
+        		</div>
+				
+    	</fieldset>
+		
+    </form>
+
+				<div id="footer">
+				<center><br><b>Coppy Right by bashar</b></center>
+                </div>
+				</div>
+				</div>
 </body>
 </html>
